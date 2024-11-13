@@ -7,6 +7,7 @@
             "extensions": []
         }
     },
-    "postCreateCommand": "catalina.sh version && ls -l /usr/local/tomcat/webapps/",
-    "remoteUser": "root"
+    "postCreateCommand": "echo 'Starting Tomcat...' && /usr/local/tomcat/bin/startup.sh && echo 'Tomcat started'",
+    "remoteUser": "root",
+    "overrideCommand": false
 }
