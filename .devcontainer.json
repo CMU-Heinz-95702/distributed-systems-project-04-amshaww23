@@ -6,5 +6,6 @@
         "vscode": {
             "extensions": []
         }
-    }
+    },
+    "postCreateCommand": "catalina.sh version && ls -l /usr/local/tomcat/webapps/"
 }
