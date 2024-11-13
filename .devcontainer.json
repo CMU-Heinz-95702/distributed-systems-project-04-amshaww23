@@ -7,5 +7,6 @@
             "extensions": []
         }
     },
-    "postCreateCommand": "catalina.sh version && ls -l /usr/local/tomcat/webapps/"
+    "postCreateCommand": "catalina.sh version && ls -l /usr/local/tomcat/webapps/",
+    "remoteUser": "root"
 }
